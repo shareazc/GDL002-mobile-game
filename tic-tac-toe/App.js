@@ -165,7 +165,7 @@ export default class App extends React.Component {
         </View>
 
         <View style={{paddingTop:100}} />
-        <Button title="Juegar de nuevo" onPress={this.onNewGamePress} />
+        <Button title="Jugar de nuevo" onPress={this.onNewGamePress} />
 
       </View>
     );
@@ -196,5 +196,6 @@ const styles = StyleSheet.create({
   tileO: {
     color: 'blue',
     fontSize: 60,
-  }
+  },
+
 });
