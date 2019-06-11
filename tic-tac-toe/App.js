@@ -95,10 +95,14 @@ export default class App extends React.Component {
     //Check for winner
     let winner = this.getWinner();
     if (winner == 1) {
-      Alert.alert("Ganó jugador X");
+      Alert.alert(
+        "Felicidades jugador X",
+        "Has ganado la partida");
       this.initializeGame();
     } else if (winner == -1) {
-      Alert.alert("Ganó jugador O");
+      Alert.alert(
+        "Felicidades jugador O",
+        "Has gnado la partida");
       this.initializeGame();
     }
   }
